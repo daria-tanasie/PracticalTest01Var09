@@ -30,7 +30,6 @@ class PracticalTest01Var09SecondaryActivity : AppCompatActivity() {
         }
 
 
-//        input1.setText()
 
         val ret = findViewById<Button>(R.id.ret)
         ret.setOnClickListener {
