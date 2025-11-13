@@ -28,6 +28,7 @@ class PracticalTest01Var09MainActivity : AppCompatActivity() {
                 val n1 = intent.getIntExtra("INP1", 0)
                 val n2 = intent.getStringExtra("INP2")
                 Toast.makeText(context, "sum:$n1, date-time$n2", Toast.LENGTH_LONG);
+                Log.d("brc", "$n1 $n2")
             }
         }
     }
