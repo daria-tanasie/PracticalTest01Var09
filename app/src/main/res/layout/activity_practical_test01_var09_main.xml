@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="true"
-            android:saveEnabled="true"
+            android:saveEnabled="false"
             android:hint="Next Term" />
 
         <Button
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:saveEnabled="true"
+            android:saveEnabled="false"
             android:hint="All terms" />
     </LinearLayout>
 

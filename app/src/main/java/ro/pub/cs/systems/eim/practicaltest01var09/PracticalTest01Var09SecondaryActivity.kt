@@ -29,8 +29,6 @@ class PracticalTest01Var09SecondaryActivity : AppCompatActivity() {
             sum += Integer.valueOf(s)
         }
 
-
-
         val ret = findViewById<Button>(R.id.ret)
         ret.setOnClickListener {
             val intent = Intent()
